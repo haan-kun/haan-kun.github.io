@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body class="body pink lighten-5">
+{% include header.html %}
+      {{ content }}
+{% include footer.html %}
+    <script type="text/javascript" src="{{ "/js/jquery.js"| prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/js/materialize.js"| prepend: site.baseurl }}"></script>
+    <script type="text/javascript">
+      $(function() {
+        $(".button-collapse").sideNav();
+        $('.parallax').parallax();
+      });
+    </script>
+  </body>
+</html>

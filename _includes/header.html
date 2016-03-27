@@ -1,0 +1,66 @@
+<header>
+  <!--Navbar Section-->
+  <div class="navbar-fixed">
+    <nav class="pink darken-2 z-depth-2" >
+      <div class="container">
+        <div class="nav-mobile">
+          <ul class="left hide-on-med-and-down">
+            <a href="{{ site.baseurl }}/" class="brand-logo waves-effect waves-light" style="font-size: 1.5rem">
+              <b>kun-tegar</b>.github.io
+            </a>
+          </ul>
+        </div>
+        <div class="nav-mobile">
+          <ul class="right hide-on-med-and-down">
+            <li class="active">
+              <a href="{{ site.baserurl }}/">Home</a>
+            </li>
+            <li>
+              <a href="http://nitip-gan.blogspot.com" target="_blank">Blog</a>
+            </li>
+            <li>
+              <a href="{{ site.baserurl }}/about/">About</a>
+            </li>
+          </ul>
+          <ul id="slide-out" class="side-nav">
+            <li class="active">
+              <a href="{{ site.baserurl }}/">Home</a>
+            </li>
+            <li>
+              <a href="http://nitip-gan.blogspot.com" target="_blank">Blog</a>
+            </li>
+            <li>
+              <a href="{{ site.baserurl }}/about/">About</a>
+            </li>
+          </ul>
+          <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--Parallax Function-->
+  <div class="parallax-container">
+    <div class="parallax"><img src="/asset/images/an-ripple.jpg"></div>
+    <div class="center-align header-logo">
+      <img class="responsive-img circle" src="/asset/images/doge.jpg">
+        <br>
+      <h5>
+        <a href="https://www.facebook.com/{{ site.facebook_username }}" class="white-text">
+          <i class="fa fa-facebook-square"></i>
+        </a>&nbsp;
+        <a href="https://www.twitter.com/{{ site.twitter_username }}" class="white-text">
+          <i class="fa fa-twitter-square"></i>
+        </a>&nbsp;
+        <a href="https://www.linkedin.com/profile/view?id={{ site.linkedin_username }}" class="white-text">
+          <i class="fa fa-linkedin-square"></i>
+        </a>&nbsp;
+        <a href="https://www.instagram.com/{{ site.instagram_username }}" class="white-text">
+          <i class="fa fa-instagram"></i>
+        </a>&nbsp;
+        <a href="https://www.github.com/{{ site.github_username }}" class="white-text">
+          <i class="fa fa-github-square"></i>
+        </a>
+      </h5>
+    </div>
+  </div> 
+</header>
